@@ -1,7 +1,7 @@
 .Nav-bar{
 display:flex ;
-color: rgb(2, 22, 22);
-background-color: rgb(13, 68, 68);
+background-color: rgb(122, 118, 138);
+
 }
 
 
@@ -26,4 +26,40 @@ body{
     font-size: 32px;
     display: flex;
     color: rgb(253, 253, 255);
+}
+
+body, html{
+
+    height: 100%;
+}
+
+
+.heroimage{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(1379469.jpg) ;
+    
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.herotext h1{
+
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 300px;
+}
+
+.herotext p{
+
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: top;
+    height: 900px;
+
 }
