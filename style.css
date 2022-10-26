@@ -48,17 +48,17 @@ body, html{
 }
 
 .herotext h1{
-
-    display: flex;
+    padding: 25px;
+    display: flex-start;
     color: white;
-    align-items: center;
+    
     height: 300px;
 }
 
 .herotext p{
-
+    font-size: 30px;
     display: flex;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     align-items: top;
     height: 900px;
 
