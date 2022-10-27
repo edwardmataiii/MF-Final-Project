@@ -1,26 +1,15 @@
-.Nav-bar{
-display:flex ;
-background-color: rgb(122, 118, 138);
-
-}
-
-
-ul{
-    list-style-type: none;
-    
-}
-
-.Nav-bar li{
-display: block;
-float: left;
-padding: 20px;
-font-size: 18px;
-}
-
 body{
 
     background-color: rgb(0, 0, 0);
 }
+
+body, html{
+
+    height: 100%;
+}
+
+
+
 
 .header{
     font-size: 32px;
@@ -28,10 +17,53 @@ body{
     color: rgb(253, 253, 255);
 }
 
-body, html{
 
-    height: 100%;
+
+
+
+
+.Navbar {
+display:flex ;
+background-color: rgb(230, 225, 225);
+border: #0724a3;
 }
+
+ul{
+    list-style-type: none;
+    border: #631da5;
+    border-radius: 50px, 50px;
+}
+.Navbar a{
+
+    text-decoration: none;
+}
+
+.Navbar li{
+display: block;
+float: left;
+padding: 20px;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+font-size: 20px;
+font-style:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .heroimage{
@@ -49,25 +81,69 @@ body, html{
 
 .herotext h1{
     padding: 25px;
-    display: flex-start;
+    display: flex;
     color: white;
-    
-    height: 300px;
+    align-items:flex-end;
+    height: 100px;
+    font-style:italic;
 }
 
 .herotext p{
     font-size: 30px;
     display: flex;
     color: rgb(0, 0, 0);
-    align-items: top;
-    height: 900px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 275px;
 
 }
 
-.navbartext li{
 
-    text-decoration: none;
-    font-size: 20px;
-    font-style:normal
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+    
+}
+
+  
+
+  input[type=submit] {
+    background-color: #631da5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #2e6366;
+  }
+  
+ 
+  .container{
+    border-radius: 10px;
+    background-color: #2294c9;
+    padding: 40px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+
+.container form{
+
+    font-family: 'Inter', sans-serif;
 
 }
